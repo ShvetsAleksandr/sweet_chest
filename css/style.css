@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 .content__top {
   min-height: 100%;
   padding-top: 150px;
-  background: url("../../img/bg.png") no-repeat center/cover;
+  background: url("../img/bg.png") no-repeat center/cover;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -691,12 +691,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__file-load {
-  background: url("../../img/file-load/bg.png") no-repeat left top/cover;
+  background: url("../img/file-load/bg.png") no-repeat left top/cover;
 }
 
 @media (min-width: 500px) {
   .content__file-load {
-    background: url("../../img/file-load/bg.png") no-repeat center/cover;
+    background: url("../img/file-load/bg.png") no-repeat center/cover;
   }
 }
 
@@ -843,7 +843,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1000px) {
   .content__conditer {
-    background: url("../../img/conditer/bg.png") no-repeat center/cover;
+    background: url("../img/conditer/bg.png") no-repeat center/cover;
   }
 }
 
