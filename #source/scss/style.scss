@@ -1,0 +1,32 @@
+//Шрифты
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
+//Обнуляющие стили
+@import "_normalize";
+
+//Header
+@import "_header";
+//Top
+@import "_content";
+//*  Шрифт страницы:
+$font-family: "Montserrat";
+
+body {
+   font-family: $font-family;
+}
+.wrapper {
+   height: 100%;
+   display: flex; 
+}
+.container {
+   @media (min-width: 768px) {
+      max-width: 1220px;
+      margin: 0 auto;
+   }
+}
+
+.button {
+		background: #FED84C;
+		border-radius: 8px;
+		text-align: center;
+		color: #2E363E;
+}
