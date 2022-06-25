@@ -29,4 +29,14 @@ body {
 		border-radius: 8px;
 		text-align: center;
 		color: #2E363E;
+      transition: 0.4s;
+      &:hover {
+         background: #fecc4c;
+      }
+      @media (min-width: 768px) {
+         &:hover {
+            transform: scale(105%);
+            background: #FED84C;
+         }
+      }
 }

@@ -5,6 +5,7 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fir=no">
+   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
    <link rel="stylesheet" href="css/style.css">
    <title>Sweet chest</title>
 </head>
@@ -149,9 +150,118 @@
                </div>
             </div>
          </div>
+         <div class="content__reviews reviews">
+            <div class="reviews__container container">
+               <div class="reviews__title">Почитайте отзывы довольных клиентов</div>
+               <div class="swiper reviews__swiper">
+                  <!-- Additional required wrapper -->
+                  <div class="swiper-wrapper">
+                     <!-- Slides -->
+                     <div class="swiper-slide slide">
+                        <div class="slide__row">
+                           <div class="slide__comment">
+                              <div class="slide__title">«Спасибо за прекрасные капкейки, все на высоте»</div>
+                              <div class="slide__text">«Вставьте отзыв целиком или часть отзыва клиента. Никогда не
+                                 выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.
+                                 Опишите конечный результат, который получил человек после работы с вами. Что конеретно
+                                 ему это дало. Можно описывать результат в цифрах, чтобы была конкретика» </div>
+                              <a href="#" class="slide__link">Читать отзыв полностью</a>
+                           </div>
+                           <div class="slide__persone">
+                              <div class="slide__photo"><img src="img/rewievs/ivan_demidov.jpg" alt=""></div>
+                              <div class="slide__name">Иван Демидов</div>
+                              <div class="slide__adress">Краснодар</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slide">
+                        <div class="slide__row">
+                           <div class="slide__comment">
+                              <div class="slide__title">«Результат дико порадовал, друзья были в восторге»</div>
+                              <div class="slide__text">«Заказала капкейки, как подарок на новый год. Делать заказ было
+                                 легко и приятно, ну а результат дико порадовал, друзья были в восторге. И оформление,
+                                 и на вкус капкейки были просто замечательные. Обязательно буду заказывать еще)) Уже
+                                 строю планы, чтобы попробовать все начинки. Они восхитительны!) Даже кушать было жалко,
+                                 такая красота!) </div>
+                              <a href="#" class="slide__link">Читать отзыв полностью</a>
+                           </div>
+                           <div class="slide__persone">
+                              <div class="slide__photo"><img src="img/rewievs/irina_larionova.jpg" alt=""></div>
+                              <div class="slide__name">Ирина Ларионова</div>
+                              <div class="slide__adress">Санкт-Петербург</div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="swiper-slide slide">
+                        <div class="slide__row">
+                           <div class="slide__comment">
+                              <div class="slide__title">«Лучшую фразу из отзыва напишите в заголовке»</div>
+                              <div class="slide__text">«Вставьте отзыв целиком или часть отзыва клиента. Никогда не
+                                 выдумывайте отзывы самостоятельно. Фильшивые отзывы всегда видно. Будьте честны.
+                                 Опишите конечный результат, который получил человек после работы с вами. Что конеретно
+                                 ему это дало. Можно описывать результат в цифрах, чтобы была конкретика» </div>
+                              <a href="#" class="slide__link">Читать отзыв полностью</a>
+                           </div>
+                           <div class="slide__persone">
+                              <div class="slide__photo"><img src="img/rewievs/elena_demidova.jpg" alt=""></div>
+                              <div class="slide__name">Елена Демидова</div>
+                              <div class="slide__adress">Санкт-Петурбург</div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="swiper__button">
+                     <div class="swiper-button-left"></div>
+                     <div class="swiper-button-right"></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div class="content__gallery gallery">
+            <div class="gallery__title">Сделали более 3.000 заказов за 2 года</div>
+            <div class="gallery__subtitle">Посмотрите фото реальных заказов из нашего instagram</div>
+            <div class="gallery__row">
+               <a class="gallery__item"><img src="img/gallery/1.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/2.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/3.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/4.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/5.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/6.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/7.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/8.jpg" alt=""></a>
+               <a class="gallery__item"><img src="img/gallery/9.jpg" alt=""></a>
+
+            </div>
+         </div>
+         <footer class="content__footer footer">
+            <div class="footer__container container">
+               <form action="#" class="footer__form form">
+                  <div class="form__title">Чтобы сделать заказ, укажите ваш телефон</div>
+                  <div class="form__subtitle">Мы перезвоним в течении 15 минут, чтобы уточнить ваши пожелания</div>
+                  <input type="text" placeholder="Номер телефона" class="form__input">
+                  <input type="submit" class="form__btn button" value="Сделать заказ">
+                  <div class="form__block">
+                     <input type="checkbox" id="check">
+                     <label for="check">Нажамая на кнопку, вы соглашаетесь с условиями обработки персональных
+                        данных</label>
+                  </div>
+
+               </form>
+               <div class="footer__bottom">
+                  <div class="footer__row">
+                     <a href="" class="footer__text">Согласие на обработку данных</a>
+                     <a href="" class="footer__text">Служба поддержки</a>
+                     <a href="" class="footer__text">Политика конфиденциальности</a>
+                  </div>
+                  <a href="" class="footer__bot">© nazvaniesaita.ru, 2054 | Название компании или ИП ОГРН
+                     0000000000000</a>
+               </div>
+            </div>
+         </footer>
       </main>
    </div>
    <!--Подключаем js-->
+   <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
    <script src="js/main.js"></script>
 </body>
 
