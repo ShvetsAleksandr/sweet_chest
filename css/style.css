@@ -235,7 +235,7 @@ h1, h2, h3, h4, h5, h6 {
 .content__top {
   min-height: 100%;
   padding-top: 150px;
-  background: url("../../img/bg.png") no-repeat center/cover;
+  background: url("../img/bg.png") no-repeat center/cover;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -691,12 +691,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .content__file-load {
-  background: url("../../img/file-load/bg.png") no-repeat left top/cover;
+  background: url("../img/file-load/bg.png") no-repeat left top/cover;
 }
 
 @media (min-width: 500px) {
   .content__file-load {
-    background: url("../../img/file-load/bg.png") no-repeat center/cover;
+    background: url("../img/file-load/bg.png") no-repeat center/cover;
   }
 }
 
@@ -843,13 +843,13 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 900px) {
   .content__conditer {
-    background: url("../../img/conditer/bg.png") no-repeat 50% top/cover;
+    background: url("../img/conditer/bg.png") no-repeat 50% top/cover;
   }
 }
 
 @media (min-width: 1000px) {
   .content__conditer {
-    background: url("../../img/conditer/bg.png") no-repeat center/cover;
+    background: url("../img/conditer/bg.png") no-repeat center/cover;
   }
 }
 
@@ -985,7 +985,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .reviews {
-  background: url("../../img/rewievs/bg.png") no-repeat center/cover;
+  background: url("../img/rewievs/bg.png") no-repeat center/cover;
 }
 
 .reviews__container {
@@ -1249,7 +1249,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 66px;
   height: 66px;
   border-radius: 50%;
-  background: url("../../img/rewievs/Arrow-right.svg") no-repeat center/cover;
+  background: url("../img/rewievs/Arrow-right.svg") no-repeat center/cover;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
@@ -1265,7 +1265,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 66px;
   height: 66px;
   border-radius: 50%;
-  background: url("../../img/rewievs/Arrow-left.svg") no-repeat center/cover;
+  background: url("../img/rewievs/Arrow-left.svg") no-repeat center/cover;
   margin-right: 23.86px;
   -webkit-transition: 0.4s;
   -o-transition: 0.4s;
@@ -1358,7 +1358,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .footer {
-  background: url("../../img/footer/bg.png") no-repeat center/cover;
+  background: url("../img/footer/bg.png") no-repeat center/cover;
   padding: 150px 0 20px;
 }
 
